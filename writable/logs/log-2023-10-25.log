@@ -1,0 +1,1118 @@
+INFO - 2023-10-25 05:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 05:45:19 --> Invalid file: "pages/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/index', [], true)
+ 3 APPPATH\Controllers\Pages.php(14): view('pages/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:45:44 --> Invalid file: "pages/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/about', [], true)
+ 3 APPPATH\Controllers\Pages.php(14): view('pages/about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:45:45 --> Invalid file: "pages/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/about', [], true)
+ 3 APPPATH\Controllers\Pages.php(14): view('pages/about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 05:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 05:50:11 --> Undefined property: App\Controllers\Buku::$bukuModel
+in APPPATH\Controllers\Buku.php on line 44.
+ 1 APPPATH\Controllers\Buku.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Buku::$bukuModel', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:50:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:51:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:51:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:51:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 05:51:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 05:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 05:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 06:00:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('32')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 06:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:14:06 --> syntax error, unexpected single-quoted string "validation", expecting "]"
+in APPPATH\Controllers\Buku.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 07:39:34 --> syntax error, unexpected single-quoted string "validation", expecting "]"
+in APPPATH\Controllers\Buku.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 07:39:35 --> syntax error, unexpected single-quoted string "validation", expecting "]"
+in APPPATH\Controllers\Buku.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 07:39:37 --> syntax error, unexpected single-quoted string "validation", expecting "]"
+in APPPATH\Controllers\Buku.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:47:13 --> Undefined variable $validation
+in APPPATH\Views\buku\tambah.php on line 9.
+ 1 APPPATH\Views\buku\tambah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\tambah.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/tambah', [], true)
+ 5 APPPATH\Controllers\Buku.php(40): view('buku/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 07:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:52:14 --> Undefined variable $validation
+in APPPATH\Controllers\Buku.php on line 53.
+ 1 APPPATH\Controllers\Buku.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Buku.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 07:53:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 07:53:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 07:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 08:32:06 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 08:37:28 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 0 passed in C:\xampp\htdocs\ci4\app\Controllers\Buku.php on line 61 and exactly 2 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 132.
+ 1 APPPATH\Controllers\Buku.php(61): CodeIgniter\HTTP\RedirectResponse->with()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 08:37:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 08:37:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 08:40:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 08:40:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 08:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 08:44:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('37')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 08:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-25 09:34:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpus', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4\app\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(942): App\Controllers\Buku->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(942): App\Controllers\Buku->index()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-25 09:34:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+ERROR - 2023-10-25 09:34:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpus', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4\app\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(942): App\Controllers\Buku->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(942): App\Controllers\Buku->index()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-25 09:34:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BukuModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Buku.php(20): App\Models\BukuModel->getBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 09:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 09:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 09:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 09:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 09:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 10:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 11:34:12 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 11:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 11:34:19 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 11:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 11:55:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 11:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 11:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 12:10:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:23:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:24:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:25:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:25:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:33:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:34:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:34:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:36:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:36:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 12:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 12:47:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:50:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:50:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:50:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:52:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:52:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:52:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:57:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 12:57:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:26:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:27:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:27:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 13:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 13:31:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:33:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:33:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:33:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 13:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 13:36:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 13:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 13:37:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:38:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:38:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:38:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 13:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 13:41:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:44:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('ubah', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 13:46:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 13:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 15:56:16 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-10-25 15:56:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\detail.php on line 11.
+ 1 APPPATH\Views\buku\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(33): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->detail('simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 15:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 15:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 16:34:18 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 16:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 23:17:18 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 23:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 23:17:47 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 23:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 23:18:46 --> Object of type CodeIgniter\HTTP\RedirectResponse is not callable
+in APPPATH\Controllers\Buku.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Buku->simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+INFO - 2023-10-25 23:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 23:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
